@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4F2CD0101BC1EC890011801F"
+               BuildableName = "Week3_Mailbox.app"
+               BlueprintName = "Week3_Mailbox"
+               ReferencedContainer = "container:Week3_Mailbox.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4F2CD0241BC1EC8A0011801F"
+               BuildableName = "Week3_MailboxTests.xctest"
+               BlueprintName = "Week3_MailboxTests"
+               ReferencedContainer = "container:Week3_Mailbox.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4F2CD02F1BC1EC8A0011801F"
+               BuildableName = "Week3_MailboxUITests.xctest"
+               BlueprintName = "Week3_MailboxUITests"
+               ReferencedContainer = "container:Week3_Mailbox.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4F2CD0101BC1EC890011801F"
+            BuildableName = "Week3_Mailbox.app"
+            BlueprintName = "Week3_Mailbox"
+            ReferencedContainer = "container:Week3_Mailbox.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4F2CD0101BC1EC890011801F"
+            BuildableName = "Week3_Mailbox.app"
+            BlueprintName = "Week3_Mailbox"
+            ReferencedContainer = "container:Week3_Mailbox.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4F2CD0101BC1EC890011801F"
+            BuildableName = "Week3_Mailbox.app"
+            BlueprintName = "Week3_Mailbox"
+            ReferencedContainer = "container:Week3_Mailbox.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
